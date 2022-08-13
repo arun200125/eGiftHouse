@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginEnd="15dp"
+    android:layout_marginStart="15dp"
+    android:layout_marginTop="20dp"
+    app:cardElevation="25dp"
+    app:cardCornerRadius="25sp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/cart_name_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Product Name"
+            android:textAlignment="center"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:textColor="@color/orange"
+            android:textAllCaps="true"
+            android:layout_marginTop="8dp"/>
+
+        <ImageView
+            android:id="@+id/cart_image_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/cart_name_layout"
+            android:layout_marginTop="2dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:id="@+id/cart_price_layout_linear"
+            android:layout_below="@id/cart_image_layout">
+
+            <TextView
+                android:id="@+id/product_price_layoutonef"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Product Price :- "
+                android:textAlignment="center"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/edit_text_txt"/>
+
+            <TextView
+                android:id="@+id/cart_price_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="  "
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:textSize="18sp"
+                android:textColor="@color/edit_text_txt"/>
+
+            <TextView
+                android:id="@+id/product_price_layouttwof"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint=" Rs."
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:textSize="18sp"
+                android:textColor="@color/edit_text_txt" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="8dp"
+            android:gravity="center"
+            android:layout_below="@id/cart_price_layout_linear">
+
+            <TextView
+                android:id="@+id/product_price_layoutone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Quantity Ordered :- "
+                android:textAlignment="center"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/edit_text_txt" />
+
+            <TextView
+                android:id="@+id/cart_quantity_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="  "
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:textSize="18sp"
+                android:textColor="@color/edit_text_txt" />
+
+            <TextView
+                android:id="@+id/product_price_layouttwo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint=" Pcs."
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:textSize="18sp"
+                android:textColor="@color/edit_text_txt" />
+        </LinearLayout>
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

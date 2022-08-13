@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Android/eGiftHouse/app/src/main/res/drawable/aboutus.xml" value="0.3195" />
+        <entry key="..\:/Android/eGiftHouse/app/src/main/res/layout/activity_admin_add_new_product.xml" value="0.2015625" />
+        <entry key="..\:/Android/eGiftHouse/app/src/main/res/layout/activity_admin_new_orders.xml" value="0.33" />
+        <entry key="..\:/Android/eGiftHouse/app/src/main/res/layout/activity_demo.xml" value="0.38697916666666665" />
+        <entry key="..\:/Android/eGiftHouse/app/src/main/res/layout/activity_login.xml" value="0.38697916666666665" />
+        <entry key="..\:/SATYAM/FlutterProjectLeraning/eGiftHouse/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1235" />
+        <entry key="..\:/SATYAM/FlutterProjectLeraning/eGiftHouse/app/src/main/res/drawable/solid_bg.xml" value="0.23794871794871794" />
+        <entry key="..\:/SATYAM/FlutterProjectLeraning/eGiftHouse/app/src/main/res/layout/activity_admin_main.xml" value="0.22552083333333334" />
+        <entry key="..\:/SATYAM/FlutterProjectLeraning/eGiftHouse/app/src/main/res/layout/activity_admin_new_orders.xml" value="0.14629629629629629" />
+        <entry key="..\:/SATYAM/FlutterProjectLeraning/eGiftHouse/app/src/main/res/layout/activity_admin_user_products.xml" value="0.22552083333333334" />
+        <entry key="..\:/SATYAM/FlutterProjectLeraning/eGiftHouse/app/src/main/res/layout/activity_checksum.xml" value="0.22552083333333334" />
+        <entry key="..\:/SATYAM/FlutterProjectLeraning/eGiftHouse/app/src/main/res/layout/activity_confirm_final_order.xml" value="0.22552083333333334" />
+        <entry key="..\:/SATYAM/FlutterProjectLeraning/eGiftHouse/app/src/main/res/layout/activity_demo.xml" value="0.22552083333333334" />
+        <entry key="..\:/SATYAM/FlutterProjectLeraning/eGiftHouse/app/src/main/res/layout/activity_login.xml" value="0.22" />
+        <entry key="..\:/SATYAM/FlutterProjectLeraning/eGiftHouse/app/src/main/res/layout/activity_login_admin.xml" value="0.22552083333333334" />
+        <entry key="..\:/SATYAM/FlutterProjectLeraning/eGiftHouse/app/src/main/res/layout/activity_product_details.xml" value="0.22552083333333334" />
+        <entry key="..\:/SATYAM/FlutterProjectLeraning/eGiftHouse/app/src/main/res/layout/activity_setup.xml" value="0.22552083333333334" />
+        <entry key="..\:/SATYAM/FlutterProjectLeraning/eGiftHouse/app/src/main/res/layout/activity_splash.xml" value="0.22552083333333334" />
+        <entry key="..\:/SATYAM/FlutterProjectLeraning/eGiftHouse/app/src/main/res/layout/cards_item_layout.xml" value="0.22447916666666667" />
+        <entry key="..\:/SATYAM/FlutterProjectLeraning/eGiftHouse/app/src/main/res/layout/customalertlayout.xml" value="0.22552083333333334" />
+        <entry key="..\:/SATYAM/FlutterProjectLeraning/eGiftHouse/app/src/main/res/layout/fragment_cart.xml" value="0.22552083333333334" />
+        <entry key="..\:/SATYAM/FlutterProjectLeraning/eGiftHouse/app/src/main/res/layout/fragment_confirm_final_order.xml" value="0.22552083333333334" />
+        <entry key="..\:/SATYAM/FlutterProjectLeraning/eGiftHouse/app/src/main/res/layout/fragment_home.xml" value="0.22552083333333334" />
+        <entry key="..\:/SATYAM/FlutterProjectLeraning/eGiftHouse/app/src/main/res/layout/fragment_product_details.xml" value="0.22552083333333334" />
+        <entry key="..\:/SATYAM/FlutterProjectLeraning/eGiftHouse/app/src/main/res/layout/fragment_select_pymt_method.xml" value="0.16" />
+        <entry key="..\:/SATYAM/FlutterProjectLeraning/eGiftHouse/app/src/main/res/layout/nav_header.xml" value="0.22447916666666667" />
+        <entry key="..\:/SATYAM/FlutterProjectLeraning/eGiftHouse/app/src/main/res/layout/orders_layout.xml" value="0.22447916666666667" />
+        <entry key="..\:/SATYAM/FlutterProjectLeraning/eGiftHouse/app/src/main/res/layout/product_items_layout.xml" value="0.22447916666666667" />
+        <entry key="..\:/SATYAM/FlutterProjectLeraning/eGiftHouse/app/src/main/res/xml/network_security_config.xml" value="0.22552083333333334" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

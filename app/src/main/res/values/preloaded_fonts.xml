@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/arizonia</item>
+        <item>@font/bitter</item>
+        <item>@font/croissant_one</item>
+        <item>@font/pacifico</item>
+        <item>@font/playfair_display</item>
+        <item>@font/proza_libre</item>
+    </array>
+</resources>

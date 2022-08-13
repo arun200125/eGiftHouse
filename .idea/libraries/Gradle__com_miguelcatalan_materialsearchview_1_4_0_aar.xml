@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.miguelcatalan:materialsearchview:1.4.0@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/53cb18681fe036c518ba785db36ccad3/transformed/jetified-materialsearchview-1.4.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/53cb18681fe036c518ba785db36ccad3/transformed/jetified-materialsearchview-1.4.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/53cb18681fe036c518ba785db36ccad3/transformed/jetified-materialsearchview-1.4.0/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.miguelcatalan/materialsearchview/1.4.0/5c5fc650f148e263a439aba7cdff200437b89890/materialsearchview-1.4.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.miguelcatalan/materialsearchview/1.4.0/3b8caddbe9447c1eb0a3d1ea2bd27891c942671d/materialsearchview-1.4.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

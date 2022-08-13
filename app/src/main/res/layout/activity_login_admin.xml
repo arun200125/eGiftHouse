@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginAdmin">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:id="@+id/containerLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/container_layout_margin">
+
+            <TextView
+                android:id="@+id/login_title"
+                style="@style/LabelStyle"
+                android:layout_marginTop="76dp"
+                android:fontFamily="@font/sf_pro_display_medium"
+                android:text="Login as Admin"
+                android:textColor="@color/orange" />
+
+            <TextView
+                android:id="@+id/login_welcome_msg"
+                style="@style/LabelStyle"
+                android:layout_below="@id/login_title"
+                android:layout_marginTop="@dimen/layout_in_between_margins"
+                android:text="Hello There \n Manage your product." />
+
+            <EditText
+                android:id="@+id/et_email_address_lo"
+                style="@style/EditTextStyle"
+                android:layout_below="@id/login_welcome_msg"
+                android:layout_marginTop="@dimen/layout_in_between_margins"
+                android:text="admin"
+                android:editable="false"
+                android:inputType="textEmailAddress"
+                tools:ignore="Deprecated" />
+
+            <EditText
+                android:id="@+id/et_password_lo"
+                style="@style/EditTextStyle"
+                android:layout_below="@id/et_email_address_lo"
+                android:layout_marginTop="@dimen/layout_in_between_margins"
+                android:text="12345"
+                android:editable="false"
+                android:inputType="textPassword" />
+
+            <Button
+                android:id="@+id/btn_login_fb"
+                style="@style/SolidButtonStyle"
+                android:layout_width="match_parent"
+                android:layout_below="@id/et_password_lo"
+                android:layout_marginTop="30dp"
+                android:backgroundTint="@color/fb_blue"
+                android:onClick="LoginAsAdmin"
+                android:text="L O G I N   A S   A D M I N"
+                android:textSize="16sp" />
+
+        </RelativeLayout>
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SettingFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+                style="@style/ToolbarStyle">
+
+            </androidx.appcompat.widget.Toolbar>
+
+            <RelativeLayout
+                android:id="@+id/containerLayout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/toolbar"
+                android:layout_margin="@dimen/container_layout_margin">
+
+                <TextView
+                    android:id="@+id/signup_title"
+                    style="@style/LabelStyle"
+                    android:layout_marginTop="0dp"
+                    android:fontFamily="@font/sf_pro_display_medium"
+                    android:text="Setting Profile"
+                    android:textColor="@color/orange" />
+
+                <TextView
+                    android:id="@+id/signup_welcome_msg"
+                    style="@style/LabelStyle"
+                    android:layout_below="@id/signup_title"
+                    android:layout_marginTop="16dp"
+                    android:text="Update Your lovely \nProfile!" />
+
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/settingProfileImage"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_below="@+id/signup_welcome_msg"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginStart="93dp"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginEnd="96dp"
+                    android:src="@drawable/default_avatar" />
+
+
+                <EditText
+                    android:id="@+id/et_full_name"
+                    style="@style/EditTextStyle"
+                    android:layout_below="@id/settingProfileImage"
+                    android:layout_marginTop="16dp"
+                    android:hint="@string/full_name_hint"
+                    android:inputType="textEmailAddress" />
+
+                <EditText
+                    android:id="@+id/et_email_address"
+                    style="@style/EditTextStyle"
+                    android:layout_below="@id/et_full_name"
+                    android:layout_marginTop="16dp"
+                    android:hint="@string/email_address_hint"
+                    android:inputType="textEmailAddress" />
+
+                <EditText
+                    android:id="@+id/et_phone"
+                    style="@style/EditTextStyle"
+                    android:layout_below="@id/et_email_address"
+                    android:layout_marginTop="16dp"
+                    android:hint="Phone"
+                    android:inputType="phone" />
+
+                <EditText
+                    android:id="@+id/et_city"
+                    style="@style/EditTextStyle"
+                    android:layout_below="@id/et_phone"
+                    android:layout_marginTop="16dp"
+                    android:hint="City"
+                    android:inputType="phone" />
+
+                <LinearLayout
+                    android:id="@+id/changeGenderLay"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="start"
+                    android:layout_below="@id/et_city">
+
+                    <EditText
+                        android:id="@+id/genderTextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:editable="false"
+                        android:textColor="@color/edit_text_txt"
+                        android:textColorHint="@color/edit_text_hint"
+                        android:textSize="22sp"
+                        android:backgroundTint="@color/edit_text_bg"
+                        android:hint="Your Gender here" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/edit_text_txt"
+                        android:textColorHint="@color/edit_text_hint"
+                        android:textSize="22sp"
+                        android:backgroundTint="@color/edit_text_bg"
+                        android:hint="Change"
+                        android:textStyle="bold"
+                        android:layout_marginStart="8dp"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/genderLayout"
+                    android:layout_below="@id/changeGenderLay"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/genderText"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="@color/edit_text_bg"
+                        android:textColor="@color/edit_text_txt"
+                        android:fontFamily="@font/sf_pro_display_medium"
+                        android:textSize="22sp"
+                        android:text="Select Gender:"
+                        android:layout_marginTop="16dp"
+                        android:layout_below="@id/et_city"/>
+                    <RadioGroup
+                        android:id="@+id/genderGroup"
+                        style="@style/EditTextStyle"
+                        android:layout_below="@id/genderText"
+                        android:orientation="horizontal"
+                        android:padding="5dp">
+
+
+                        <RadioButton
+                            android:id="@+id/male"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Male"
+                            android:textColor="@color/edit_text_txt"
+                            android:textSize="18sp"
+                            android:paddingEnd="10dp"/>
+
+                        <RadioButton
+                            android:id="@+id/female"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Female"
+                            android:textColor="@color/edit_text_txt"
+                            android:textSize="18sp" />
+
+                    </RadioGroup>
+
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/btn_signup"
+                    style="@style/SolidButtonStyle"
+                    android:layout_width="match_parent"
+                    android:layout_below="@id/genderLayout"
+                    android:layout_marginTop="25dp"
+                    android:text="U P D A T E" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>

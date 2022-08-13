@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/eGiftHouse.iml" filepath="$PROJECT_DIR$/.idea/modules/eGiftHouse.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/eGiftHouse.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/eGiftHouse.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/eGiftHouse.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/eGiftHouse.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/eGiftHouse.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/eGiftHouse.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/eGiftHouse.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/eGiftHouse.app.unitTest.iml" />
+    </modules>
+  </component>
+</project>

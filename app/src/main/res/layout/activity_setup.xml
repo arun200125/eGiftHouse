@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SetupActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:id="@+id/containerLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/container_layout_margin">
+
+            <TextView
+                android:id="@+id/signup_title"
+                style="@style/LabelStyle"
+                android:layout_marginTop="0dp"
+                android:fontFamily="@font/sf_pro_display_medium"
+                android:text="Setup Your Account"
+                android:textColor="@color/orange" />
+
+            <TextView
+                android:id="@+id/signup_welcome_msg"
+                style="@style/LabelStyle"
+                android:layout_below="@id/signup_title"
+                android:layout_marginTop="16dp"
+                android:text="Hello There! \nComplete Your Profile" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/setupProfileImage"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_below="@+id/signup_welcome_msg"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginStart="93dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginEnd="96dp"
+                android:src="@drawable/default_avatar" />
+
+            <EditText
+                android:id="@+id/et_phone"
+                style="@style/EditTextStyle"
+                android:layout_below="@id/setupProfileImage"
+                android:layout_marginTop="25dp"
+                android:hint="Contact No."
+                android:inputType="phone" />
+
+            <EditText
+                android:id="@+id/et_city"
+                style="@style/EditTextStyle"
+                android:layout_below="@id/et_phone"
+                android:layout_marginTop="16dp"
+                android:hint="City"
+                android:textAllCaps="true"
+                android:inputType="text" />
+
+            <TextView
+                android:id="@+id/genderText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/edit_text_bg"
+                android:textColor="@color/edit_text_txt"
+                android:fontFamily="@font/sf_pro_display_medium"
+                android:textSize="22sp"
+                android:text="Select Gender:"
+                android:layout_marginTop="16dp"
+                android:layout_below="@id/et_city"/>
+            <RadioGroup
+                android:id="@+id/genderGroup"
+                style="@style/EditTextStyle"
+                android:layout_below="@id/genderText"
+                android:orientation="horizontal"
+                android:padding="5dp">
+
+
+                <RadioButton
+                    android:id="@+id/male"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Male"
+                    android:textColor="@color/edit_text_txt"
+                    android:textSize="18sp"
+                    android:paddingEnd="10dp"
+                    android:onClick="checkButtom"/>
+
+                <RadioButton
+                    android:id="@+id/female"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Female"
+                    android:textColor="@color/edit_text_txt"
+                    android:textSize="18sp"
+                    android:onClick="checkButtom"/>
+
+            </RadioGroup>
+
+            <Button
+                android:id="@+id/btn_signup"
+                style="@style/SolidButtonStyle"
+                android:layout_width="match_parent"
+                android:layout_below="@id/genderTextView"
+                android:layout_marginTop="20dp"
+                android:text="S e t u p"
+                android:onClick="SaveDetailsToDB"/>
+
+            <EditText
+                android:id="@+id/genderTextView"
+                style="@style/EditTextStyle"
+                android:editable="false"
+                android:hint="Your Select Gender Display Here"
+                android:layout_below="@id/genderGroup"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+</ScrollView>

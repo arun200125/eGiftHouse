@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1074660544520",
+    "firebase_url": "https://e-food-seva.firebaseio.com",
+    "project_id": "e-food-seva",
+    "storage_bucket": "e-food-seva.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1074660544520:android:1485b81702e790a57dc1bd",
+        "android_client_info": {
+          "package_name": "com.example.egifthouse"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1074660544520-g0e75nkcbe4ksv2ho3ir8t52oc2e7aln.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.egifthouse",
+            "certificate_hash": "a39db9f1c420d4b9e4e576a6e6f30618721642dc"
+          }
+        },
+        {
+          "client_id": "1074660544520-1egm8pj5l1bm8acr4vgeue5oa3qoaocb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCzLFzjZfJoID7vNjoBZjUux-DKmALk7I8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1074660544520-1egm8pj5l1bm8acr4vgeue5oa3qoaocb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
